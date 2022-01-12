@@ -89,3 +89,57 @@ hr {
 .blog-text2 a {
     text-decoration: none;
 }
+
+
+/* coures style */
+
+.main-course-div {
+    display: flex;
+    grid-column-gap: 55px;
+}
+
+.courses {
+    width: 224px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.course-banner img {
+    width: 224px;
+    height: 104px;
+}
+
+.course-style2 {
+    color: rgb(247, 111, 111);
+}
+
+.fa-star.style {
+    color: #f7b50f;
+    font-size: 16px;
+}
+
+.fa-star {
+    color: gray;
+    font-size: 16px;
+}
+
+.time {
+    background-color: pink;
+    border-radius: 10px;
+    color: rgb(247, 111, 111);
+    width: 90px;
+    text-align: center;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.rating p {
+    margin-left: 10px;
+}
